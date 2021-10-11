@@ -70,3 +70,6 @@ Este método realiza a alteração de informações de um usuário a partir do s
 
 ### DELETE (``/api/v1/usuario/{codigo}``)
 Este método realiza a deleção de um usuário a partir do seu código.
+
+### Observação
+Todo código comentado refere-se ao caso de a foto ser um arquivo e não um link para uma imagem
