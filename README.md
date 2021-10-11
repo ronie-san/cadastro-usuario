@@ -40,6 +40,13 @@ Este método realiza a busca de algum usuário a partir do seu código.
 }
 ~~~
 
+### GET (``/api/v1/usuario/foto/{codigo}``)
+Este método realiza a busca de algum usuário a partir do seu código e retorna o arquivo de imagem referente a foto.
+#### Response Body
+~~~java
+byte[] foto
+~~~
+
 ### PUT (``/api/v1/usuario/{codigo}``)
 Este método realiza a alteração de informações de um usuário a partir do seu código.
 #### Body
