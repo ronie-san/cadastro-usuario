@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+//import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 
@@ -28,7 +29,10 @@ public class UsuarioDTO implements Serializable {
 	
 	@JsonFormat(pattern="yyyy-MM-dd")
 	private LocalDate dtNascimento;
-	
+		
 	private String foto;
+	
+	//@JsonIgnore
+	//private byte[] foto;
 
 }

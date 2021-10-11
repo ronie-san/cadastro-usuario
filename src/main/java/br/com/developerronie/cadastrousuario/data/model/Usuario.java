@@ -35,6 +35,10 @@ public class Usuario implements Serializable {
 	@Column(name = "DT_NASCIMENTO", nullable = false)
 	private LocalDate dtNascimento;
 	
+	//Para o caso de a foto ser um link
 	@Column(name = "FOTO", nullable = true)
 	private String foto;
+	
+//	@Column(name = "FOTO", nullable = true)
+//	private Byte[] foto;
 }
